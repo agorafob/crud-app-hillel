@@ -1,4 +1,4 @@
-package com.agorafob;
+package com.agorafob.main.employee;
 
 import com.agorafob.model.Employee;
 

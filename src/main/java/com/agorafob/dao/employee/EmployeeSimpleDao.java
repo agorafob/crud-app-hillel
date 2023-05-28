@@ -1,4 +1,4 @@
-package com.agorafob.dao;
+package com.agorafob.dao.employee;
 
 import com.agorafob.model.Employee;
 

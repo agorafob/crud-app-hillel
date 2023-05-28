@@ -1,8 +1,6 @@
-package com.agorafob.dao;
+package com.agorafob.dao.employee;
 
 import com.agorafob.model.Employee;
-
-import java.sql.SQLException;
 import java.util.List;
 
 public interface EmployeeDao {

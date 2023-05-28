@@ -1,7 +1,7 @@
 package com.agorafob.service;
 
-import com.agorafob.dao.EmployeeDao;
-import com.agorafob.dao.EmployeeDaoFactory;
+import com.agorafob.dao.employee.EmployeeDao;
+import com.agorafob.dao.employee.EmployeeDaoFactory;
 import com.agorafob.model.Employee;
 
 import java.util.List;
@@ -14,8 +14,7 @@ public class EmployeeManageService {
     }
 
     public Long add(Employee employee)  {
-        Long id = employeeDao.addEmployee(employee);
-        return id;
+        return employeeDao.addEmployee(employee);
     }
 
     public void delete(Long id){

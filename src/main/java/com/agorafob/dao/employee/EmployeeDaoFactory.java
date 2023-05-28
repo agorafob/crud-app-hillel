@@ -1,4 +1,4 @@
-package com.agorafob.dao;
+package com.agorafob.dao.employee;
 
 import java.util.Objects;
 
@@ -7,7 +7,8 @@ public class EmployeeDaoFactory {
     private EmployeeDao employeeDao;
 
     private EmployeeDaoFactory() {
-        employeeDao = new EmployeeSimpleDao();
+//        employeeDao = new EmployeeSimpleDao();
+        employeeDao = new EmployeeDatabaseDao();
     }
 
     public static synchronized EmployeeDaoFactory getInstance(){

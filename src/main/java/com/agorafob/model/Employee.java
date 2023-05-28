@@ -10,6 +10,9 @@ public class Employee {
     private Long departmentId;
     private Long chiefId;
 
+    public Employee() {
+    }
+
     public Employee(String name, Integer salary, Long departmentId, Long chiefId) {
         this.name = name;
         this.salary = salary;
@@ -17,11 +20,9 @@ public class Employee {
         this.chiefId = chiefId;
     }
 
-//    public Employee(Long id, String name, Integer salary, Long departmentId, Long chiefId) {
-//        this(name, salary, departmentId, chiefId);
-//        this.id = id;
-//    }
-
-    public Employee() {
+    public Employee(Long id, String name, Integer salary, Long departmentId, Long chiefId) {
+        this(name, salary, departmentId, chiefId);
+        this.id = id;
     }
+
 }
