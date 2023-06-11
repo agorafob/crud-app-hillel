@@ -7,6 +7,7 @@ import com.agorafob.util.AppConfig;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.List;
+import java.util.Scanner;
 
 public class EmployeeDbMain {
     public static void main(String[] args) throws URISyntaxException, IOException {
@@ -21,8 +22,10 @@ public class EmployeeDbMain {
 //        Employee e = new Employee(26L,"testtesttest",15,2L,2L);
 //        System.out.println(ems.add(e));
 //        ems.update(e);
-        ems.delete(26L);
-        ems.delete(27L);
+//        ems.delete(26L);
+//        ems.delete(27L);
+
+
 
     }
 }
