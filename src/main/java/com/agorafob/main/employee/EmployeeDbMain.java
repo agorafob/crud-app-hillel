@@ -16,7 +16,13 @@ public class EmployeeDbMain {
 //        for (Employee e:print) {
 //            System.out.println(e);
 //        }
-        Employee e = ems.get(10L);
-        System.out.println(e);
+//        Employee e = ems.get(10L);
+//        System.out.println(e);
+//        Employee e = new Employee(26L,"testtesttest",15,2L,2L);
+//        System.out.println(ems.add(e));
+//        ems.update(e);
+        ems.delete(26L);
+        ems.delete(27L);
+
     }
 }

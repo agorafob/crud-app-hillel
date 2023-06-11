@@ -15,6 +15,10 @@ public class DepartmentDbMain {
 //            System.out.println(d);
 //        }
 
-        System.out.println(dms.getDepartment(5L));
+//        System.out.println(dms.getDepartment(5L));
+//        Department department = new Department("test");
+//        dms.addDepartment(department);
+//        dms.updateDepartment(new Department(7L,"testtesttest"));
+        dms.deleteDepartment(7L);
     }
 }
